@@ -1,0 +1,232 @@
+mixin navbar
+    .nav
+        .logo
+                img(src="images/logo.png")    
+        ul.nav-bar
+            
+            li
+                a(href="#") Home
+            li
+                a(href="#") Services
+            li
+                a(href="#") About
+            li
+                a(href="#") Work
+            li
+                a(href="#") Contacts    
+                       
+
+
+doctype html
+
+html
+    head
+        title 
+        link(rel="stylesheet", href="style/main-style.css", type="text/css")
+      
+    body
+        header
+            .container
+                +navbar 
+                .slider 
+                    .arr-left
+                        img(src="images/arrow_right.png")
+                    .main-txt
+                        .txt-wrap
+                            .good-idea GOOD IDEAS
+                            .comes comes
+                        .ifrst first!
+                    .arr-right
+                        img(src="images/arrow_left.png")
+                .slider-it-wrap
+                    ul.slider-item 
+                        li  
+                        li
+                        li
+                        
+           
+        .servis
+            .container
+                +navbar
+                h1 OUR SERVICES
+                span  Cras commodo mattis justo nec lobortis. Nam ut tellus lobortis, ullamcorper massa sit amet
+                p Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.
+                ul.about-skil 
+                    li
+                        img(src="images/servis1.png")
+                        span Researching
+                        p Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                    li
+                        img(src="images/servis2.png")
+                        span DESIGN
+                        p Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                    li
+                        img(src="images/servis3.png")
+                        span Development
+                        p Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                    li
+                        img(src="images/servis4.png")
+                        span launch
+                        p Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+        .who-weare
+            .container
+                +navbar
+                h2 Who we are & what we do
+                p Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.
+                .my-team Meet the team
+                ul.peop-list
+                    li
+                        .mem
+                            img(src="images/3-layers.png")
+                        .user-name Anton Petrov
+                        .member General manager
+                        .social
+                            .fb
+                            .tvit
+                            .goog
+                            .in
+                    li
+                        .mem
+                            img(src="images/3-layers.png")
+                        .user-name Anton Petrov
+                        .member General manager
+                        .social
+                            .fb
+                            .tvit
+                            .goog
+                            .in
+                    li
+                        .mem
+                            img(src="images/3-layers.png")
+                        .user-name Anton Petrov
+                        .member General manager
+                        .social
+                            .fb
+                            .tvit
+                            .goog
+                            .in
+                    li
+                        .mem
+                            img(src="images/3-layers.png")
+                        .user-name Anton Petrov
+                        .member General manager
+                        .social
+                            .fb
+                            .tvit
+                            .goog
+                            .in        
+                                
+        .work
+            .container
+                +navbar
+                h4 our work
+                p Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis. 
+                .line
+                .portfolio
+                    span portfolio
+                    ul.portfolio-item
+                        li
+                            .button All	
+                        li
+                            .button Photography	
+                        li
+                            .button Logo design    
+                        li
+                            .button Web design
+                .line
+                ul.foto
+                    li
+                        .bg
+                            .plus
+                                img(src="images/2-layers.png")        
+                        img(src="images/1.png")
+                    li
+                        .bg
+                            .plus
+                                img(src="images/2-layers.png")       
+                        img(src="images/2.png")
+                    li
+                        .bg
+                            .plus
+                                img(src="images/2-layers.png") 
+                        img(src="images/3.png")
+                    li
+                        .bg
+                            .plus
+                                img(src="images/2-layers.png") 
+                        img(src="images/4.png")
+                    li
+                        .bg
+                            .plus
+                                img(src="images/2-layers.png") 
+                        img(src="images/5.png")
+                    li
+                        .bg
+                            .plus
+                                img(src="images/2-layers.png") 
+                        img(src="images/6.png")
+                    li
+                        .bg
+                            .plus
+                                img(src="images/2-layers.png") 
+                        img(src="images/7.png")
+                    li
+                        .bg
+                            .plus
+                                img(src="images/2-layers.png") 
+                        img(src="images/2.png")    
+                        
+                
+        .contact
+            .container
+                +navbar
+                h5 CONTACT US
+                .par Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.
+                .wrappp
+                    .adress
+                        .ask
+                            span Adress
+                        .acr
+                            span Acrostia
+                        .sevenoaks 
+                            span Sevenoaks Rd
+                            br
+                            span Sevenoaks TN14 7HR, UK
+                        .numb
+                            .num-mail
+                                .phone Phone:
+                                .fax Fax:
+                                .mail E-mail:
+                                .scype Skype:
+                            .num
+                                .number +44 555 555 555
+                                .number +44 555 555 555
+                                .number info@acrostia.com
+                                .number Ac0stia
+                    .map
+                        
+                    .form-container
+                        .ask
+                            span Ask a question
+                        form
+                            input(type='text' placeholder='Name' )
+                            input(type='text' placeholder='Last name' id='sec-in')
+                            textarea(placeholder='Your question') 
+                            button SEND            
+
+                    
+        footer
+            .container
+                .sosial-footer
+                    ul
+                        li
+                            img(src="images/fbf.png")
+                        li
+                            img(src="images/inf.png")       
+                        li
+                            img(src="images/googf.png")
+                        li
+                            img(src="images/twf.png")
+                
+                        
+                    
